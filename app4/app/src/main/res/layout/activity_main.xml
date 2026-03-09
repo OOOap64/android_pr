@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="471dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="259dp">
+
+    <TextView
+        android:layout_width="200dp"
+        android:text="What's your favorite hobby "
+        android:layout_height="40dp"/>
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Swimming"
+        android:checked="false"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="210dp" />
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tenis"
+        android:checked="false"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="210dp" />
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        android:checked="false"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="210dp" />
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Football"
+        android:checked="false"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+
+    <RadioGroup
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:background="#aaaa"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="14dp">
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Female"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="226dp" />
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="false"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="226dp" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        android:text="Status: "/>
+
+</LinearLayout>
